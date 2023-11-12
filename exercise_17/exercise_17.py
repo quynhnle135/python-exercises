@@ -1,5 +1,6 @@
 from random import randint
 
+
 def rollDice(numberOfDice):
     total = 0
     for i in range(numberOfDice):

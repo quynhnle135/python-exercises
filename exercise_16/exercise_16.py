@@ -1,4 +1,7 @@
 def findMode(nums):
+    if not nums:
+        return None
+
     numCount = {}
     for num in nums:
         if num in numCount:
@@ -16,7 +19,7 @@ def findMode(nums):
 
 def main():
     print(findMode([1, 2, 3, 4, 4]))
-    print(findMode([1, 2, 3, 4]))
+    print(findMode([1, 1, 2, 3, 4]))
 
 
 if __name__ == "__main__":
